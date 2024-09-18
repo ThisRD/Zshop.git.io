@@ -1,1 +1,0 @@
-# zshop.git.io
