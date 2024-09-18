@@ -1,0 +1,160 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* estilização geral */
+
+body{
+  background-color: #f4f3ea;
+}
+
+header {
+  background-color: #f4f3ea;
+  padding: 0%;
+}
+
+.linha{
+  background-color: #d84b3c;
+  height: 15px;
+}
+
+.logo {
+  background-color: transparent;
+  height: 1px;
+  
+}
+
+/* div da imagem */
+
+
+.navbar {
+  margin: 0%;
+  font-size: 20px;
+  padding: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* estilazação da navbar */
+
+.listbar {
+  margin: 0%;
+  display: flex;
+  padding: 0%;
+  justify-content: space-evenly;
+  list-style: none;
+  align-items: start;
+}
+/* estilização da lista de itens */
+
+.items {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 30px;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+/* estilização dos itens */
+
+.items:hover {
+  background-color: #e0dfd5;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #cac9bb;
+}
+
+.items a {
+  text-decoration: none;
+  color: black;
+}
+/* estilização do link */
+
+main{
+  background-color: #f4f3ea;
+} 
+/* cor de fundo do conteudo principal */
+
+.banner{
+  background-color: transparent;
+  margin-top: -14.3%;
+  width:1900px;
+  height: 1120px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  text-align: start;
+}
+/* edição do banner */
+
+.banner img{
+  width: 1850px;
+}
+/* formatação da imagem */
+
+.align {
+  margin: 0 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* alinhamento das sections */
+
+.carousel {
+  margin: -15% 0 0 0;
+  width: 1000px;
+}
+
+.carousel img{
+  width: 800px;
+  height: 600px;
+}
+
+
+footer {
+  /* margin-top: 100px; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #c13247;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2%;
+}
+
+footer > div {
+  display: flex;
+  flex-direction: column;
+  min-width: 125px;
+  margin-right: 40px;
+}
+
+footer > div > a {
+  margin-top: 0.5%;
+  margin-left: 5%;
+  color: whitesmoke;
+  text-decoration: none;
+  transition: 200ms;
+}
+
+/* modificar o link quando o mouse ficar em cima */
+footer > div > a:hover {
+  text-decoration: underline;
+  color: gainsboro;
+  font-size: 25px;
+}
+@media screen and (max-width: 420px){
+  footer {
+    padding-left: 10%;
+  }
+}
+
+@media screen and (max-width: 360px){
+  footer {
+    padding-left: 20%;
+  }
+}
